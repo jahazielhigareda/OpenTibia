@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RuntimeIdentifiers>win-x64;linux-x64</RuntimeIdentifiers>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>$(DefineConstants);_AOT</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(RuntimeIdentifier)'=='linux-x64'">
+    <DefineConstants>$(DefineConstants);Target_Runtime_Linux_x64</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLua" Version="1.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenTibia.Common\OpenTibia.Common.csproj" />
+    <ProjectReference Include="..\OpenTibia.Data.Common\OpenTibia.Data.Common.csproj" />
+    <ProjectReference Include="..\OpenTibia.Data.InMemory\OpenTibia.Data.InMemory.csproj" />
+    <ProjectReference Include="..\OpenTibia.Data.MsSql\OpenTibia.Data.MsSql.csproj" />
+    <ProjectReference Include="..\OpenTibia.Data.MySql\OpenTibia.Data.MySql.csproj" />
+    <ProjectReference Include="..\OpenTibia.Data.Oracle\OpenTibia.Data.Oracle.csproj" />
+    <ProjectReference Include="..\OpenTibia.Data.PostgreSql\OpenTibia.Data.PostgreSql.csproj" />
+    <ProjectReference Include="..\OpenTibia.Data.Sqlite\OpenTibia.Data.Sqlite.csproj" />
+    <ProjectReference Include="..\OpenTibia.Data\OpenTibia.Data.csproj" />
+    <ProjectReference Include="..\OpenTibia.FileFormats\OpenTibia.FileFormats.csproj" />
+    <ProjectReference Include="..\OpenTibia.Game.Common\OpenTibia.Game.Common.csproj" />
+    <ProjectReference Include="..\OpenTibia.IO\OpenTibia.IO.csproj" />
+    <ProjectReference Include="..\OpenTibia.Network\OpenTibia.Network.csproj" />
+    <ProjectReference Include="..\OpenTibia.Security\OpenTibia.Security.csproj" />
+    <ProjectReference Include="..\OpenTibia.Threading\OpenTibia.Threading.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\OpenTibia.GameData\OpenTibia.GameData.projitems" Label="Shared" />
+
+</Project>
+

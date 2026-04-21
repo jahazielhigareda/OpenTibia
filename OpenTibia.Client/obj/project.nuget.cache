@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "90DXrgYjaP0=",
+  "success": true,
+  "projectFilePath": "C:\\git\\Experimental\\OpenTibia\\OpenTibia.Client\\OpenTibia.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jahaz\\.nuget\\packages\\keralua\\1.3.4\\keralua.1.3.4.nupkg.sha512",
+    "C:\\Users\\jahaz\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\jahaz\\.nuget\\packages\\nlua\\1.6.3\\nlua.1.6.3.nupkg.sha512",
+    "C:\\Users\\jahaz\\.nuget\\packages\\raylib-cs\\7.0.2\\raylib-cs.7.0.2.nupkg.sha512",
+    "C:\\Users\\jahaz\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\jahaz\\.nuget\\packages\\system.drawing.common\\8.0.6\\system.drawing.common.8.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

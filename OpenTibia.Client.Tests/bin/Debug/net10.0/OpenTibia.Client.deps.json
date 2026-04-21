@@ -1,0 +1,352 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "OpenTibia.Client/1.0.0": {
+        "dependencies": {
+          "OpenTibia.Common": "1.0.0",
+          "OpenTibia.FileFormats": "1.0.0",
+          "OpenTibia.Game.Common": "1.0.0",
+          "OpenTibia.Network": "1.0.0",
+          "OpenTibia.Threading": "1.0.0",
+          "Raylib-cs": "7.0.2"
+        },
+        "runtime": {
+          "OpenTibia.Client.dll": {}
+        }
+      },
+      "KeraLua/1.3.4": {
+        "runtime": {
+          "lib/net7.0/KeraLua.dll": {
+            "assemblyVersion": "1.3.4.0",
+            "fileVersion": "1.3.4.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/android-arm/native/liblua54.so": {
+            "rid": "android-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/android-arm64/native/liblua54.so": {
+            "rid": "android-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/android-x64/native/liblua54.so": {
+            "rid": "android-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/android-x86/native/liblua54.so": {
+            "rid": "android-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ios/native/liblua54.framework/Info.plist": {
+            "rid": "ios",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ios/native/liblua54.framework/liblua54": {
+            "rid": "ios",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/liblua54.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/maccatalyst/native/liblua54.framework/Info.plist": {
+            "rid": "maccatalyst",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/maccatalyst/native/liblua54.framework/liblua54": {
+            "rid": "maccatalyst",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/liblua54.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/tvos/native/liblua54.framework/Info.plist": {
+            "rid": "tvos",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/tvos/native/liblua54.framework/liblua54": {
+            "rid": "tvos",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm/native/lua54.dll": {
+            "rid": "win-arm",
+            "assetType": "native",
+            "fileVersion": "5.4.4.0"
+          },
+          "runtimes/win-arm64/native/lua54.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "5.4.4.0"
+          },
+          "runtimes/win-x64/native/lua54.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.4.4.0"
+          },
+          "runtimes/win-x86/native/lua54.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "5.4.4.0"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "NLua/1.6.3": {
+        "dependencies": {
+          "KeraLua": "1.3.4"
+        },
+        "runtime": {
+          "lib/net7.0/NLua.dll": {
+            "assemblyVersion": "1.6.3.0",
+            "fileVersion": "1.6.3.0"
+          }
+        }
+      },
+      "Raylib-cs/7.0.2": {
+        "runtime": {
+          "lib/net8.0/Raylib-cs.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libraylib.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/libraylib.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libraylib.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/raylib.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/raylib.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "System.Drawing.Common/8.0.6": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.624.26909"
+          }
+        }
+      },
+      "OpenTibia.Common/1.0.0": {
+        "runtime": {
+          "OpenTibia.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OpenTibia.Data.Common/1.0.0": {
+        "runtime": {
+          "OpenTibia.Data.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OpenTibia.FileFormats/1.0.0": {
+        "dependencies": {
+          "OpenTibia.IO": "1.0.0",
+          "System.Drawing.Common": "8.0.6"
+        },
+        "runtime": {
+          "OpenTibia.FileFormats.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OpenTibia.Game.Common/1.0.0": {
+        "dependencies": {
+          "NLua": "1.6.3",
+          "OpenTibia.Common": "1.0.0",
+          "OpenTibia.Data.Common": "1.0.0",
+          "OpenTibia.FileFormats": "1.0.0",
+          "OpenTibia.Network": "1.0.0",
+          "OpenTibia.Threading": "1.0.0"
+        },
+        "runtime": {
+          "OpenTibia.Game.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OpenTibia.IO/1.0.0": {
+        "dependencies": {
+          "OpenTibia.Common": "1.0.0"
+        },
+        "runtime": {
+          "OpenTibia.IO.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OpenTibia.Network/1.0.0": {
+        "dependencies": {
+          "OpenTibia.IO": "1.0.0",
+          "OpenTibia.Security": "1.0.0"
+        },
+        "runtime": {
+          "OpenTibia.Network.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OpenTibia.Security/1.0.0": {
+        "runtime": {
+          "OpenTibia.Security.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OpenTibia.Threading/1.0.0": {
+        "runtime": {
+          "OpenTibia.Threading.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OpenTibia.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KeraLua/1.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FeCNVmVkx/xfg2Q9fIOn9G6bs1W8oaMxLn9CTC1mwnYGQozWJAPl0jfZNW5V+kVaOXWNmn8zBxCQA/7j6to5nw==",
+      "path": "keralua/1.3.4",
+      "hashPath": "keralua.1.3.4.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "hashPath": "microsoft.win32.systemevents.8.0.0.nupkg.sha512"
+    },
+    "NLua/1.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IY0ufwFPJIbbS340Fn1IuwyJ+B7I/UvRX5vfNTRE9CseZXITnUGxCDiuDVMNM0N29wrMg15PyToRtBvypHaV9A==",
+      "path": "nlua/1.6.3",
+      "hashPath": "nlua.1.6.3.nupkg.sha512"
+    },
+    "Raylib-cs/7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tpisH03Z9AfdTKFTe7iIA7RNeSaQFE97A+7ApXJUaOHzg2hczBXA1J/2uF7teKHsVXSuGqoV2aHAbaeJJMqulw==",
+      "path": "raylib-cs/7.0.2",
+      "hashPath": "raylib-cs.7.0.2.nupkg.sha512"
+    },
+    "System.Drawing.Common/8.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aSwRnJzz6fZ73JvWMMG0KvBwOnXsBTFtfHLriQyAPrDIZ+NrDfl15GWbO/A35k0dtH77D7jfxzEcFF7RONtU/w==",
+      "path": "system.drawing.common/8.0.6",
+      "hashPath": "system.drawing.common.8.0.6.nupkg.sha512"
+    },
+    "OpenTibia.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTibia.Data.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTibia.FileFormats/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTibia.Game.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTibia.IO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTibia.Network/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTibia.Security/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTibia.Threading/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

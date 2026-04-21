@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenTibia.Common\OpenTibia.Common.csproj" />
+    <ProjectReference Include="..\OpenTibia.Network\OpenTibia.Network.csproj" />
+    <ProjectReference Include="..\OpenTibia.Threading\OpenTibia.Threading.csproj" />
+    <ProjectReference Include="..\OpenTibia.Game.Common\OpenTibia.Game.Common.csproj" />
+    <ProjectReference Include="..\OpenTibia.FileFormats\OpenTibia.FileFormats.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Raylib-cs" Version="7.0.2" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+</Project>

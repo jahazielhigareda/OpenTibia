@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>11</LangVersion>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <RuntimeIdentifiers>win-x64;linux-x64</RuntimeIdentifiers>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(RuntimeIdentifier)'=='linux-x64'">
+    <DefineConstants>$(DefineConstants);Target_Runtime_Linux_x64</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLua" Version="1.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenTibia.Common\OpenTibia.Common.csproj" />
+    <ProjectReference Include="..\OpenTibia.Data.Common\OpenTibia.Data.Common.csproj" />
+    <ProjectReference Include="..\OpenTibia.FileFormats\OpenTibia.FileFormats.csproj" />
+    <ProjectReference Include="..\OpenTibia.Network\OpenTibia.Network.csproj" />
+    <ProjectReference Include="..\OpenTibia.Threading\OpenTibia.Threading.csproj" />
+  </ItemGroup>
+
+</Project>
+

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <ApplicationIcon>tibia772.ico</ApplicationIcon>
+    <Title>MTOTS GUI</Title>
+    <Version>1.9.3</Version>
+    <Authors>mtank</Authors>
+    <Company></Company>
+    <Product>MTOTS GUI</Product>
+    <Description>An implementation in C# of open tibia server.</Description>
+    <RepositoryUrl>https://github.com/OpenTibia</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenTibia.Game\OpenTibia.Game.csproj" />
+  </ItemGroup>
+
+</Project>
+
